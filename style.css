@@ -1,3 +1,33 @@
-.fullbody{
-    background-color:#FF9900;
+body{
+    background-color: #fe9900;
+}
+
+
+/* Navlist Padding */
+.navbar-nav>li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* image in top nav bar "sell on jumia" */
+.container img{ 
+    height: 2%;
+    width: 2%;
+}
+
+
+/* image attached to topnav list "Jumia with chart logo" */
+.collapse img{
+    height: 7%;
+    width: 5%; 
+    padding-top: 5px;  
+}
+
+
+/* SECOND NAVBAR */
+.secondnavbar img{ 
+    height: 10%;
+    width: 15%;
+
+
 }
