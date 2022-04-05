@@ -12,7 +12,7 @@ body{
 /* image in top nav bar "sell on jumia" */
 .container img{ 
     height: 2%;
-    width: 2%;
+    width: 3%;
 }
 
 
@@ -23,11 +23,35 @@ body{
     padding-top: 5px;  
 }
 
+/* .navbar{ height: 30%;
+
+} */
+
 
 /* SECOND NAVBAR */
 .secondnavbar img{ 
     height: 10%;
-    width: 15%;
+    width: 20%;
+}
 
+.secondnavbar{
+    background-color: white;
+}
+
+.secondnavlists{
+    font: ;
+}
+
+
+
+
+/* SEARCH BUTTON */
+.btn{
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    background-color: #fe9900;
 
 }
+
+
