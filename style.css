@@ -24,11 +24,14 @@ body{
 }
 
 /* .navbar{ height: 30%;
-
 } */
 
 
+
+
 /* SECOND NAVBAR */
+
+
 .secondnavbar img{ 
     height: 10%;
     width: 20%;
@@ -38,12 +41,6 @@ body{
     background-color: white;
 }
 
-.secondnavlists{
-    font: ;
-}
-
-
-
 
 /* SEARCH BUTTON */
 .btn{
@@ -51,7 +48,43 @@ body{
     font-size: small;
     font-weight: bold;
     background-color: #fe9900;
-
 }
+
+
+.secondnavlist{
+    font-weight: bold;
+    font-size: x-large;
+
+    }
+
+
+    /* GRID AND CAROUSEL IMAGE */
+    .wrapper{
+        display:grid ;
+        grid-template-columns: 20% 80%;
+        grid-gap: 1em;
+        padding-top: 2em;
+
+
+    }
+
+
+
+
+
+
+    /* outlinning  */
+    .wrapper > div{
+        background:#eee ;
+        padding: 1em;
+    }
+
+    .wrapper > div:nth-child(odd){background:
+    #ddd
+}
+
+
+    
+
 
 
