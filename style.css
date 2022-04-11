@@ -42,12 +42,14 @@ body{
 }
 
 
-/* SEARCH BUTTON */
-.btn{
+/* SEARCH BUTTON IN NAVBAR*/
+.navbtn{
     color: white;
     font-size: small;
     font-weight: bold;
     background-color: #fe9900;
+    border: #fe9900;
+    border-radius: 0.5em;
 }
 
 
@@ -79,28 +81,24 @@ body{
 
 
 
-    /* outlinning  */
+    /* GRID ITEM DIVISION & CAROUSEL BACKGROUND*/
     .wrapper > div{
         background:#00B070 ;
         padding: 1em;
-        border-radius: 1em;
+        border-radius: 0.5em;
         
     }
-
+/* GRID ITEM ONLY  */
     .wrapper > div:nth-child(odd)
     
     {background: #FFFFFF;
        
 }
 
-/* stylish button */
+/* STYLISH BUTTON (free delivey,easter fest,official store,jumia  */
 
-.asdbutton{
-    padding:1%;
-    background-color: ;
-    
-   
-    
+.button{
+    padding:1%;  
 }
 
 .btt {
