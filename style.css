@@ -61,12 +61,12 @@ body{
     /* GRID AND CAROUSEL IMAGE */
     .wrapper{
         display:grid ;
-        grid-template-columns: 20% 80%;
+        grid-template-columns: 30% 80%;
         grid-gap: 1em;
         padding-top: 2em;
+        align-items: center;
 
-
-    }
+       }
 
 
 
@@ -77,14 +77,90 @@ body{
     .wrapper > div{
         background:#eee ;
         padding: 1em;
+        border-radius: 1em;
+        
     }
 
-    .wrapper > div:nth-child(odd){background:
-    #ddd
+    .wrapper > div:nth-child(odd)
+    
+    {background: #ddd;
+       
+}
+
+/* stylish button */
+
+.asdbutton{
+    padding:1%;
+    background-color: ;
+    
+   
+    
+}
+
+.btt {
+    background-color:black;
 }
 
 
+/* card with heading */
+.card{
+    width: 90em;
+    height: 35em;
+    border-radius: 1em;
+    
+}
+
+.card-header{
+    background-color: red;
+}
+
+.card-header:hover img {
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, .15);
+}
+
+
+
+
+.card-header p{
+    font-size: x-large;
+    font: bolder;
+    color: #eee;  
+}
     
 
+/* card warraper  */ 
+
+.cardwrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-radius: 1em
+    
+    
+}
 
 
+.row img {
+    width:  25%;
+    height: 25%;
+}
+
+
+
+/* Third Display */
+.thirdwrapper{ 
+    display: grid;    
+    grid-template-columns: 60% 40%;
+    background:#eee;
+    width: auto;
+    height: auto;
+    padding: 1em;
+  
+}
+
+
+.thirdwrapper img{
+    height: auto;
+width: auto;
+padding: 1em;
+
+}
