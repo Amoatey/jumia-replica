@@ -1,5 +1,5 @@
 body{
-    background-color: #fe9900;
+    background-color: #00B070;
 }
 
 
@@ -75,7 +75,7 @@ body{
 
     /* outlinning  */
     .wrapper > div{
-        background:#eee ;
+        background:#00B070 ;
         padding: 1em;
         border-radius: 1em;
         
