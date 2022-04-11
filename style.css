@@ -68,6 +68,12 @@ body{
 
        }
 
+       /*CAROUSEL IMAGES STYLING  */
+       .carousel img{
+           border-radius: 0.5em;
+           
+       }
+
 
 
 
