@@ -96,13 +96,16 @@ body{
 }
 
 /* STYLISH BUTTON (free delivey,easter fest,official store,jumia  */
-
 .button{
     padding:1%;  
 }
 
 .btt {
-    background-color:black;
+    background-color: white; border: white;
+    color:black ;
+    padding: 1%;
+    font-weight: bold;
+
 }
 
 
