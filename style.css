@@ -1,173 +1,158 @@
-body{
-    background-color: #00B070;
+body {
+  background-color: #00b070;
 }
 
-
 /* Navlist Padding */
-.navbar-nav>li {
-    padding-left: 5px;
-    padding-right: 5px;
+.navbar-nav > li {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 /* image in top nav bar "sell on jumia" */
-.container img{ 
-    height: 2%;
-    width: 3%;
+.container img {
+  height: 2%;
+  width: 3%;
 }
 
-
 /* image attached to topnav list "Jumia with chart logo" */
-.collapse img{
-    height: 7%;
-    width: 5%; 
-    padding-top: 5px;  
+.collapse img {
+  height: 7%;
+  width: 5%;
+  padding-top: 5px;
 }
 
 /* .navbar{ height: 30%;
 } */
 
-
-
-
 /* SECOND NAVBAR */
 
-
-.secondnavbar img{ 
-    height: 10%;
-    width: 20%;
+.secondnavbar img {
+  height: 10%;
+  width: 20%;
 }
 
-.secondnavbar{
-    background-color: white;
+.secondnavbar {
+  background-color: white;
 }
-
 
 /* SEARCH BUTTON IN NAVBAR*/
-.navbtn{
-    color: white;
-    font-size: small;
-    font-weight: bold;
-    background-color: #fe9900;
-    border: #fe9900;
-    border-radius: 0.5em;
+.navbtn {
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  background-color: #fe9900;
+  border: #fe9900;
+  border-radius: 0.5em;
 }
 
+.secondnavlist {
+  font-weight: bold;
+  font-size: x-large;
+}
 
-.secondnavlist{
-    font-weight: bold;
-    font-size: x-large;
+/* GRID AND CAROUSEL IMAGE */
+.wrapper {
+  display: grid;
+  grid-template-columns: 30% 80%;
+  grid-gap: 1em;
+  padding-top: 2em;
+  align-items: center;
+}
 
-    }
+/*CAROUSEL IMAGES STYLING  */
+.carousel img {
+  border-radius: 0.5em;
+}
 
-
-    /* GRID AND CAROUSEL IMAGE */
-    .wrapper{
-        display:grid ;
-        grid-template-columns: 30% 80%;
-        grid-gap: 1em;
-        padding-top: 2em;
-        align-items: center;
-
-       }
-
-       /*CAROUSEL IMAGES STYLING  */
-       .carousel img{
-           border-radius: 0.5em;
-           
-       }
-
-
-
-
-
-
-    /* GRID ITEM DIVISION & CAROUSEL BACKGROUND*/
-    .wrapper > div{
-        background:#00B070 ;
-        padding: 1em;
-        border-radius: 0.5em;
-        
-    }
+/* GRID ITEM DIVISION & CAROUSEL BACKGROUND*/
+.wrapper > div {
+  background: #00b070;
+  padding: 1em;
+  border-radius: 0.5em;
+}
 /* GRID ITEM ONLY  */
-    .wrapper > div:nth-child(odd)
-    
-    {background: #FFFFFF;
-       
+.wrapper > div:nth-child(odd) {
+  background: #ffffff;
 }
 
 /* STYLISH BUTTON (free delivey,easter fest,official store,jumia  */
-.button{
-    padding:1%;  
+.button {
+  padding: 1%;
 }
 
 .btt {
-    background-color: white; border: white;
-    color:black ;
-    padding: 1%;
-    font-weight: bold;
-
+  background-color: white;
+  border: white;
+  color: black;
+  padding: 1%;
+  font-weight: bold;
 }
-
 
 /* card with heading */
-.card{
-    width: 90em;
-    height: 35em;
-    border-radius: 1em;
-    
+.card {
+  width: 90em;
+  height: 35em;
+  border-radius: 1em;
 }
 
-.card-header{
-    background-color: red;
+.card-header {
+  background-color: red;
 }
 
 .card-header:hover img {
-    box-shadow: 5px 10px 15px rgba(0, 0, 0, .15);
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.15);
 }
 
-
-
-
-.card-header p{
-    font-size: x-large;
-    font: bolder;
-    color: #eee;  
-}
-    
-
-/* card warraper  */ 
-
-.cardwrapper{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    border-radius: 1em
-    
-    
+.card-header p {
+  font-size: x-large;
+  font: bolder;
+  color: #eee;
 }
 
+/* card warraper  */
+
+.cardwrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-radius: 1em;
+}
 
 .row img {
-    width:  25%;
-    height: 25%;
+  width: 25%;
+  height: 25%;
 }
-
-
 
 /* Third Display */
-.thirdwrapper{ 
-    display: grid;    
-    grid-template-columns: 60% 40%;
-    background:#eee;
-    width: auto;
-    height: auto;
-    padding: 1em;
-  
+.thirdwrapper {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  background: #eee;
+  width: auto;
+  height: auto;
+  padding: 1em;
+}
+
+.thirdwrapper img {
+  height: auto;
+  width: auto;
+  padding: 1em;
 }
 
 
-.thirdwrapper img{
-    height: auto;
-width: auto;
-padding: 1em;
+/* Sercive Buttons */
+.service-button{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1%;
+  padding-inline-end: 10%;
+  justify-items: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 1rem;
+  border-radius: 0.5em;
+}
 
+.service-button img{
+  justify-content: center; 
 }
