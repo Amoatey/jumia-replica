@@ -1,28 +1,42 @@
 body {
-  background-color: #00b070;
+  background-color: #F5F5F5;
+  padding: 0;
+  min-height: 100%;
+  min-width: 950px;
+  box-sizing: border-box;
 }
 
-/* Navlist Padding */
+
+
+/* NAVLIST PADDING */
 .navbar-nav > li {
   padding-left: 5px;
   padding-right: 5px;
 }
 
-/* image in top nav bar "sell on jumia" */
+/* IMAGE IN TOP NAV BAR "sell on jumia" */
 .container img {
   height: 2%;
   width: 3%;
 }
 
-/* image attached to topnav list "Jumia with chart logo" */
+/* NAVBAR-BRAND ID */
+#text{
+  color: #fe9900;
+  
+  
+ 
+}
+
+
+/* IMAGE ATTATCHED TO TOPNAV LIST "Jumia with chart logo" */
 .collapse img {
   height: 7%;
   width: 5%;
   padding-top: 5px;
 }
 
-/* .navbar{ height: 30%;
-} */
+
 
 /* SECOND NAVBAR */
 
@@ -45,9 +59,12 @@ body {
   border-radius: 0.5em;
 }
 
+
+/* SECOND NAVBAR LIST */
 .secondnavlist {
   font-weight: bold;
   font-size: x-large;
+  padding: 8px;
 }
 
 /* GRID AND CAROUSEL IMAGE */
@@ -75,28 +92,42 @@ body {
   background: #ffffff;
 }
 
-/* STYLISH BUTTON (free delivey,easter fest,official store,jumia  */
-.button {
-  padding: 1%;
-}
 
-.btt {
-  background-color: white;
-  border: white;
-  color: black;
-  padding: 1%;
-  font-weight: bold;
-}
+
 
 /* card with heading */
-.card {
+/* .card {
   width: 90em;
   height: 35em;
-  border-radius: 1em;
+  border-radius: 1em; 
+} */
+
+
+/* Flash Sale|Free Delivery */
+.cardflash-sale{
+  padding: 2%;
+
 }
+
+.cardflash-header{
+  background-color: red;
+}
+
+.cardflash-header p {
+  font-size: x-large;
+  font: bolder;
+  color: #eee;
+}
+
+.row img {
+  width: 25%;
+  height: 25%;
+}
+
 
 .card-header {
   background-color: red;
+  
 }
 
 .card-header:hover img {
@@ -151,7 +182,8 @@ body {
   background-color: #ffffff;
   margin: 1rem;
   border-radius: 0.5em;
-}
+  box-sizing: border-box;
+} 
 
 .service-button img{
   justify-content: center; 
