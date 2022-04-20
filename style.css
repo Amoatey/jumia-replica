@@ -83,13 +83,14 @@ body {
 
 /* GRID ITEM DIVISION & CAROUSEL BACKGROUND*/
 .wrapper > div {
-  background: #00b070;
+  background: #F5F5F5;
   padding: 1em;
   border-radius: 0.5em;
 }
 /* GRID ITEM ONLY  */
 .wrapper > div:nth-child(odd) {
   background: #ffffff;
+  padding: 8px;
 }
 
 
