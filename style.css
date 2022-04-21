@@ -117,21 +117,23 @@ body {
 /* CARD DISPLAY - FLASH SALE DELIVERY */
 .flash-sale-delivery{
   padding-top: 15px;
+  border-radius: 4px;
 }
 
-.card-header{
+.card-header, .card-header1{
   color:white;
   background-color: red;
   padding-left: 16px;
   min-height: 48px;
-   padding-left: 16px; 
-   display: flex;
+  padding-left: 16px; 
+  display: flex;
   justify-content: start;
   align-content: center;
+  border-radius: 4px;
   
 }
 
-.card-header > p {
+.card-header > p,.card-header1 p{
   margin-top: 10px;
  
 }
@@ -139,4 +141,13 @@ body {
   height: auto;
   width: auto;
 }
+
+/* GOODIES CARD DISPLAY*/
+.card-body1 img{
+  height: auto; width: auto;
+  padding: auto;
+  padding: left 8px; 
+  padding-right: 8px;
+}
+
 
