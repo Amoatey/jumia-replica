@@ -4,6 +4,8 @@ body {
   min-height: 100%;
   min-width: 950px;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  direction: ltr;
 }
 
 /* NAVLIST PADDING */
@@ -88,26 +90,13 @@ body {
   /* padding: 8px; */
 }
 
-/* card with heading */
-/* .card {
-  width: 90em;
-  height: 35em;
-  border-radius: 1em; 
-} */
-
 /* Sercive Buttons */
-
-/* .services {
-  display: flex;
-  justify-content: space-evenly;
-} */
-
 .service-button {
   color: black;
   font-weight: bold;
   text-decoration: none;
   padding: 1%;
-  padding-inline-end: 10%;
+  padding-inline-end: 10.6%;
   justify-items: center;
   align-items: center;
   background-color: #FFFFFF;
@@ -119,3 +108,11 @@ body {
 .service-button img {
   justify-content: center;
 }
+
+/* CARD DISPLAY - FLASH SALE DELIVERY */
+.flash-sale-delivery{
+  padding: auto;
+
+}
+
+
