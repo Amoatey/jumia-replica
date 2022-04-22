@@ -130,6 +130,7 @@ body {
   justify-content: start;
   align-content: center;
   border-radius: 4px;
+  font-size: 1.25rem; font-weight: 500;
   
 }
 
@@ -143,11 +144,26 @@ body {
 }
 
 /* GOODIES CARD DISPLAY*/
-.card-body1 img{
+/* .card-body1 img{
   height: auto; width: auto;
   padding: auto;
   padding: left 8px; 
   padding-right: 8px;
+} */
+
+/* TOP BRANDS CARD DISPLAY */
+
+.goodies
+.style{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.card-body1 img{
+  width:  42vw;
+  margin: 2px 2px 2px 4px;
+  border-radius: 5px;
 }
 
 
