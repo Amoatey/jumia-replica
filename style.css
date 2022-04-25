@@ -87,8 +87,8 @@ body {
   font-family: Helvetica Neue, Arial, sans-serif;
   display: block;
   box-sizing: border-box;
-  height: 93.5%;
-  padding: 8px;
+  height: 93.5%; image-rendering: inherit;
+  padding: 8px; 
 }
 
 /* Sercive Buttons */
@@ -184,5 +184,11 @@ body {
 
   }
 
+  /* TERMS & CONDITIONS */
+  .terms-conditions{
+     background-color: white;
+     margin: auto;
+
+  }
 
 
